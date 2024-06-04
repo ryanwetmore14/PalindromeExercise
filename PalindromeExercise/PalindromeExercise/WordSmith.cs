@@ -26,15 +26,15 @@ namespace PalindromeExercise
 
             return wordLowered == backwards;
 
-            //if (wordLowered == backwards)
-            //{
-            //    return true;
+            if (wordLowered == backwards)
+            {
+                return true;
 
-            //}
-            //else
-            //{
-            //return false;
-            //}
+            }
+            else
+            {
+            return false;
+            }
 
 
         }
